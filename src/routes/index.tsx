@@ -96,7 +96,7 @@ function Index() {
                       {correct ? "✅ Correct!" : "❌ Incorrect"}
                     </p>
                     <p className="mt-2 text-sm">{q.explanation}</p>
-                    {!correct && <p className="mt-2 text-sm text-muted-foreground">{q.wrongHint}</p>}
+                    {!correct && q.wrongHint && <p className="mt-2 text-sm text-muted-foreground">{q.wrongHint}</p>}
                   </div>
                   <div className="rounded-xl border-l-4 border-warning bg-warning/10 p-4">
                     <p className="text-sm font-bold">🌍 African Context</p>
