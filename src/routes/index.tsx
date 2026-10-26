@@ -21,7 +21,7 @@ function Index() {
   const [picked, setPicked] = useState<number | null>(null);
   const [score, setScore] = useState(0);
   const [done, setDone] = useState(false);
-  const q = questions[i];
+  const q = questions[i]!;
   const answered = picked !== null;
   const correct = picked === q.answer;
 
