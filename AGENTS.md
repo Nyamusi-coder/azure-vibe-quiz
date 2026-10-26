@@ -9,8 +9,6 @@
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
 
-<!-- LOVABLE:END -->
-
 ## Rules
 
 - App-wide notices (the unofficial-prep disclaimer) render in the root component above `<Outlet />`, not inside a page route, so they appear on every page including 404 and error screens.
