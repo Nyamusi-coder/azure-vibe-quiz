@@ -41,9 +41,6 @@ function Index() {
 
   return (
     <div className="min-h-screen bg-vibe">
-      <div className="border-b border-warning/40 bg-warning/15 px-4 py-3 text-center text-sm font-medium text-warning-foreground">
-        ⚠️ Unofficial AZ-900 Prep Tool. Not affiliated with Microsoft. For educational purposes only.
-      </div>
       <main className="mx-auto max-w-2xl px-4 py-10 sm:py-16">
         <header className="mb-8 text-center">
           <h1 className="font-display text-4xl font-bold text-primary-foreground sm:text-5xl">AzureVibe Prep</h1>

@@ -121,6 +121,15 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
+      <div
+        role="note"
+        className="sticky top-0 z-50 border-b-2 border-warning-ink/25 bg-warning px-4 py-3"
+      >
+        <p className="mx-auto max-w-3xl text-center text-sm font-bold leading-snug text-warning-ink sm:text-base">
+          ⚠️ Unofficial AZ-900 Prep Tool - Not affiliated with Microsoft. For
+          educational purposes only.
+        </p>
+      </div>
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
     </QueryClientProvider>
